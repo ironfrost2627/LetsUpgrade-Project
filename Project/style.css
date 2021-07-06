@@ -1,0 +1,526 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bgimage{
+    background-image: url(./assets/images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.bg-overlay{
+    background-color: rgba(0,0,0,0.4);
+}
+/* Header start  */
+
+header{
+    width: 100%;
+    height: 70px;
+    /* background-color: red; */
+    display: flex;
+    
+}
+.logo{
+    width: 30%;
+    height: 70px;
+    /* background-color: yellow; */
+    margin-left: 20px;
+   
+}
+ .logo img{
+     width: 100%;
+     height: 70px;
+ }
+  
+ /* Navigation Bar */
+
+ .nav-parent{
+    /* background-color:gray; */
+    display: flex;
+    /* justify-content: flex-end; */
+    margin-left: 450px;
+ 
+   
+    height: 70px;
+    width: 40%;
+    
+}
+
+ .nav ul li{
+        
+        list-style: none;
+        display: flex;
+        display: inline-block;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        padding: 0px 20px;
+        line-height: 70px;
+        transition: 0.3s;
+        cursor: pointer;
+        
+ }
+
+ .nav ul li:hover{
+     color: white;
+     background-color: black;
+ }
+
+  /* Navigation Bar */
+ /* Header End */
+
+ /* Banner Start  */
+
+.banner{
+    width: 100%;
+    height: 550px;
+    display: flex;
+   
+}
+.overlay{
+    
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    /* align-items: center; */
+    margin-top: 70px;
+   
+    
+}
+.overlay-text{
+    width: 50%;
+    height: 350px;
+    background-color: rgba(0,0,0,0.7);
+    padding: 20px 15px;
+}
+.overlay-text h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    color: rgba(179, 177, 177, 0.877);
+    padding: 20px 0 ;
+}
+.overlay-text p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+    color: rgba(179, 177, 177, 0.877);
+    margin-bottom: 25px;
+    
+}
+.banner-btn{
+    color:rgba(209, 201, 201, 0.699); 
+    background-color: rgb(43, 40, 40);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border: 1px solid;
+    border-radius: 15px;
+    width: 90%;
+    padding: 10px;
+    margin-left: 5%;
+    cursor: pointer;
+    transition: 0.4s;
+    
+   
+    
+}
+.banner-btn:hover{
+   
+    background-color: rgba(209, 201, 201, 0.699);
+    color: rgb(0, 0, 0);
+}
+/* Banner End  */
+
+/* Services Start */
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.services{
+    width: 100%;
+    background-color: rgb(221, 226, 226);
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    font-family: segoe UI;
+
+}
+
+.services h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: bold;
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+
+}
+.container-services{
+    height: 400px;
+    width: 40%;
+    display: flex;
+    margin: 25px;
+    
+    background-color:white;
+    flex-wrap: wrap;
+}
+.service-img {
+    width: 40%;
+    height: 400px;
+    /* background-color: yellow; */
+    display: flex;
+    overflow: hidden;
+}
+.service-desc{
+    width: 60%;
+    height: 400px;
+    /* background-color: cadetblue; */
+    font-family: segoe ui;
+    color: black;  
+}
+.service-desc-head{
+    font-size: 35px;
+    font-weight: bold;
+    padding:10px;
+    display: flex;
+    align-items: center;
+}
+.service-desc-body{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-weight: bold; */
+    font-size:  20px;
+    padding: 10px;
+    display: flex;
+}
+.service-desc-btn{
+    display: flex;
+    justify-content: center;
+    color:rgba(209, 201, 201, 0.699); 
+    background-color: rgb(43, 40, 40);
+    border: 1px solid black;
+    width: 80%;
+    padding: 10px;
+    margin-top: 25px;
+    margin-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.4s;
+
+
+}
+.service-desc-btn:hover{
+    background-color: rgba(209, 201, 201, 0.699);
+    color: rgb(0, 0, 0);
+
+}
+
+.service-img-3{
+    justify-content: center;
+}
+/* services end */
+/* about us start */
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: gray; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    height: 280px;
+}
+.about-header{
+    margin: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.about-desc{
+    text-indent: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 30px;
+    padding: 5px;
+}
+.about-desc p span{
+    font-size: large;
+    font-weight: 800;
+    letter-spacing: 1px;
+    
+}
+.about-btn button{
+    display: flex;
+    justify-content: center;
+    color:white;
+    background-color: rgb(43, 40, 40);
+    border: 1px solid black;
+    /* width: 80%; */
+    padding: 10px 40px;
+    margin-top: 25px;
+    margin-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    
+}
+.about-btn button:hover{
+    background-color: rgba(209, 201, 201, 0.699);
+    color: rgb(0, 0, 0);
+    transition: 1s;
+}
+/* About us end */
+
+/* portfolio start */
+
+.portfolio{
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+       align-items: center;
+/* */
+    justify-content: center;
+    background-color: rgb(221, 226, 226);
+    width: 100%;
+    height: 75vh;
+    padding-bottom: 10px;
+
+}
+
+
+    
+ 
+.portfolio-img-1{
+    background-image: url(./assets/images/car.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+.portfolio-img-2{
+    background-image: url(./assets/images/const.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+.portfolio-img-3{
+    background-image: url(./assets/images/dubai.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    margin-left: 10px;
+    margin-top: 25px;
+    
+}
+
+.portfolio-img-4{
+    background-image: url(./assets/images/flight.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+.portfolio-img-5{
+    background-image: url(./assets/images/gaming.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+.portfolio-img-6{
+    background-image: url(./assets/images/laptops.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+.portfolio-img-7{
+    background-image: url(./assets/images/ship.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+.portfolio-img-8{
+    background-image: url(./assets/images/web\ dev.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+.portfolio h1{
+    width: 100%;
+    height: 50%;
+    background-color: rgba(0,0,0,0);
+    opacity: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    color: rgb(145, 145, 145);
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    cursor: pointer;
+}
+.portfolio h1:hover{
+    width: 100%;
+    height: 92.3%;
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    opacity: 1;
+    transition-duration: 0.7s;
+    
+}
+.portfolio-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: #DDE2E2;
+}
+.portfolio-header-title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 25px;
+}
+
+/* portfolio end */
+
+/* projects start */
+.projects{
+    width: 100%;
+    height: 30vh;
+    background-color: rgb(221, 226, 226);;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: segoe ui;
+}
+.project-contents{
+    color: black;
+}
+/* project end */
+
+/* footer start */
+
+.footer{
+    width: 99.7%;
+    height: 45vh;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    border: 1px solid black;
+    margin: 0px 0 3px 1px;
+    /* background-color: rgb(221, 226, 226); */
+}
+.footer-header{
+    /* background-color: black; */
+    width: 100%;
+    height: 34%;
+    background-image: url(./assets/images/logo.png);
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+   
+    
+}
+.footer-address{
+    margin-top: 20px;
+    /* height: 100%; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-list{
+    width: 50%;
+    height: 100%;
+    margin-left: 20px;
+}
+.footer-address ul li{
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.foot-li-head{
+    font-size: larger;
+    margin-bottom: 10px;
+}
+.footer-icons{
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    height: 50%;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-content{
+    
+     height: 100%;
+     width: 50px; 
+}
+ 
+.icon-1{
+    background-image: url(./assets/Icons/fb.png);
+    background-size: cover;
+    cursor: pointer;
+    
+}
+.icon-1:hover{
+    background-image: url(./assets/Icons/fbhover.png);
+    transition-delay: 0.7s;
+    transition: ease-in;
+}
+.icon-2{
+    background-image: url(./assets/Icons/github.png);
+    background-size: cover;
+    cursor: pointer;
+    
+}
+.icon-2:hover{
+    background-image: url(./assets/Icons/githover.png);
+    transition-delay: 0.7s;
+    transition: ease-in;
+}
+.icon-3{
+    background-image: url(./assets/Icons/insta.png);
+    background-size: cover;
+    cursor: pointer;
+}
+.icon-3:hover{
+    background-image: url(./assets/Icons/instahover.png);
+    transition-delay: 0.7s;
+    transition: ease-in;
+}
+.icon-4{
+    background-image: url(./assets/Icons/twitter.png);
+    background-size: cover;
+    cursor: pointer;
+}
+.icon-4:hover{
+    background-image: url(./assets/Icons/twitterhover.png);
+    transition-delay: 0.7s;
+    transition: ease-in;
+}
+
